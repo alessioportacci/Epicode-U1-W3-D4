@@ -1,0 +1,43 @@
+.cell{
+    display: inline-block;
+    border: solid 1px black;
+    padding: 1em;
+    width: 1em;
+    height: 1em;
+    font-size: large;
+    text-align: center;
+    background-color: white;
+}
+
+.player-board{
+    max-width: 15em;
+    display: inline-block;
+    padding: 1em;
+    background-color: lightgray;
+    margin:0.5em
+}
+
+body{
+    max-width: 74em;
+}
+
+.selected{
+    background-color: aquamarine;
+}
+
+#board{
+    max-width: 74em;
+}
+
+#commands {
+    text-align: center;
+    margin: 3em;
+  }
+
+  #get-number {
+    padding: 2em;
+  }
+
+  #get-players {
+    padding: 1em;
+  }
